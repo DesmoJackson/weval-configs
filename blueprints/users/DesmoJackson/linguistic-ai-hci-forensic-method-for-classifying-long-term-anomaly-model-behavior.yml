@@ -1,0 +1,156 @@
+title: >-
+  Linguistic AI HCI Forensic Method for Classifying Long-Term Anomaly Model
+  Behavior
+description: >-
+  Evaluates a model's ability to design a forensic methodology for identifying
+  and classifying long-term anomalous behavior in AI models, focusing on
+  linguistic and Human-Computer Interaction (HCI) aspects.
+---
+id: methodology_design
+prompt: >-
+  Design a linguistic AI HCI forensic methodology for classifying long-term
+  anomalous model behavior. Focus on the steps involved, the types of data to
+  collect, and the linguistic features to analyze.
+should:
+  - Outlines a clear, step-by-step methodology for forensic analysis.
+  - >-
+    Identifies specific types of data to collect for linguistic and HCI analysis
+    (e.g., user queries, model responses, interaction logs, user feedback).
+  - >-
+    Specifies linguistic features or patterns that would indicate anomalous
+    behavior (e.g., sentiment shifts, vocabulary changes, coherence degradation,
+    topic drift, grammatical errors).
+  - >-
+    Explains how HCI aspects would be integrated into the analysis (e.g., user
+    frustration metrics, task completion rates, interaction patterns).
+  - >-
+    Describes a mechanism for classifying or categorizing the identified
+    anomalies based on their linguistic and HCI characteristics.
+  - >-
+    Mentions the importance of establishing a 'baseline' or 'normal' behavior
+    for comparison.
+  - >-
+    Does not focus solely on technical model performance metrics (e.g.,
+    accuracy, F1-score) without linking them to linguistic or HCI outcomes.
+render_as: markdown
+---
+id: linguistic_features_examples
+prompt: >-
+  Provide three distinct examples of linguistic features that could indicate
+  long-term anomalous behavior in an AI model, and explain how each feature's
+  deviation from a baseline would suggest an anomaly.
+should:
+  - Provides at least three distinct linguistic features.
+  - >-
+    For each feature, clearly explains how its deviation from a baseline would
+    indicate an anomaly.
+  - >-
+    Examples are specific to linguistic characteristics (e.g., sentiment,
+    vocabulary, coherence, topic, grammar, style).
+  - >-
+    Examples are plausible indicators of 'long-term' anomalous behavior, not
+    just single-instance errors.
+  - >-
+    Does not provide examples that are purely technical (e.g., 'model accuracy
+    dropped') without a linguistic manifestation.
+render_as: markdown
+---
+id: hci_impact_mitigation
+prompt: >-
+  Describe how long-term linguistic anomalies in an AI model could negatively
+  impact Human-Computer Interaction (HCI), and propose two distinct strategies
+  to mitigate these HCI impacts using forensic insights.
+should:
+  - >-
+    Clearly describes at least two negative impacts of long-term linguistic
+    anomalies on HCI (e.g., user frustration, decreased trust, task failure,
+    increased cognitive load).
+  - Proposes at least two distinct mitigation strategies.
+  - >-
+    Each mitigation strategy is directly linked to addressing the HCI impacts of
+    linguistic anomalies.
+  - >-
+    Strategies demonstrate an understanding of how forensic insights (from
+    linguistic analysis) can inform practical solutions.
+  - Strategies are actionable and go beyond simply 'retrain the model'.
+render_as: markdown
+---
+id: anomaly_detection_metrics
+prompt: >-
+  What quantitative metrics, derived from linguistic and HCI data, would you
+  propose to detect the onset of long-term anomalous behavior in an AI model?
+  Explain how each metric would be calculated and what specific type of anomaly
+  it aims to identify.
+should:
+  - Proposes at least three distinct quantitative metrics.
+  - >-
+    Each metric is clearly derived from linguistic or HCI data (e.g.,
+    perplexity, sentiment variance, task completion time, user query length,
+    coherence scores).
+  - Explains how each metric would be calculated (e.g., formula, data sources).
+  - >-
+    For each metric, specifies the type of long-term anomaly it aims to identify
+    (e.g., topic drift, degradation of fluency, increased user frustration,
+    decreased utility).
+  - >-
+    Metrics are suitable for detecting 'onset' or gradual changes, not just
+    sudden failures.
+  - >-
+    Avoids metrics that are purely internal model performance indicators without
+    a clear linguistic or HCI manifestation.
+render_as: markdown
+---
+id: ethical_considerations
+prompt: >-
+  Discuss the ethical considerations involved in continuously monitoring an AI
+  model's linguistic and HCI behavior for anomalies. How can a forensic
+  methodology be designed to respect user privacy and data security while still
+  being effective?
+should:
+  - >-
+    Identifies at least two relevant ethical considerations (e.g., user privacy,
+    data security, potential for bias in anomaly detection, transparency, user
+    consent).
+  - >-
+    Explains how these ethical considerations specifically relate to linguistic
+    and HCI data monitoring.
+  - >-
+    Proposes concrete strategies or design principles for ensuring user privacy
+    (e.g., data anonymization, aggregation, differential privacy, consent
+    mechanisms).
+  - >-
+    Proposes concrete strategies or design principles for ensuring data security
+    (e.g., access controls, encryption, secure storage).
+  - >-
+    Demonstrates an understanding of the trade-offs between effectiveness of
+    monitoring and ethical safeguards.
+  - Does not dismiss ethical concerns as secondary to detection effectiveness.
+render_as: markdown
+---
+id: tooling_and_infrastructure
+prompt: >-
+  Outline the key components of a software tooling and infrastructure stack
+  required to implement the proposed linguistic AI HCI forensic methodology.
+  Focus on the types of tools and systems needed for data collection, storage,
+  analysis, and visualization of long-term anomalies.
+should:
+  - >-
+    Identifies key components for data collection (e.g., logging frameworks, API
+    interceptors, user interaction trackers).
+  - >-
+    Identifies key components for data storage (e.g., time-series databases,
+    data lakes, secure archives).
+  - >-
+    Identifies key components for data analysis (e.g., NLP libraries, machine
+    learning frameworks for anomaly detection, statistical analysis tools).
+  - >-
+    Identifies key components for visualization and reporting (e.g., dashboards,
+    alerting systems, interactive graphs).
+  - >-
+    Mentions the need for scalability and real-time or near real-time processing
+    capabilities.
+  - Discusses how these components would integrate to form a cohesive stack.
+  - >-
+    Avoids generic IT infrastructure descriptions without linking them to the
+    specific needs of linguistic/HCI anomaly detection.
+render_as: markdown
